@@ -1,0 +1,91 @@
+// import fonts 
+@font-face {
+    font-family: Vietnam-Thin;
+    src: url('../fonts/BeVietnam-Thin.ttf');
+}
+
+@font-face {
+    font-family: Vietnam-Light;
+    src: url('../fonts/BeVietnam-Light.ttf');
+}
+
+@font-face {
+    font-family: Vietnam;
+    src: url('../fonts/BeVietnam-Regular.ttf');
+}
+
+@font-face {
+    font-family: Vietnam-Bold;
+    src: url('../fonts/BeVietnam-Bold.ttf');
+}
+
+@font-face {
+    font-family: Vietnam-xlBold;
+    src: url('../fonts/BeVietnam-ExtraBold.ttf');
+}
+
+
+
+
+// font size
+//Note: html size iz 62.5% so 1rem=10px
+$size-exa:12rem;
+$size-peta:10rem;
+$size-tera:9.6rem;
+$size-giga:8rem;
+$size-mega:7.4rem;
+$size-kilo:7rem;
+$size-h1-big:6.4rem;
+$size-h1:5rem;
+$size-h2-big:4.2rem;
+$size-h2:4rem;
+$size-h3:3rem;
+$size-h4:2.4rem;
+$size-h5:2.2rem;
+$size-h6:1.8rem;
+$size-default:1.8rem;
+$size-p:1.8rem;
+$size-minor-big:1.6rem;
+$size-minor:1.4rem;
+$size-milli:1.2rem;
+$size-micro:1rem;
+
+
+// font weight
+$weight-light:300;
+$weight-medium:500;
+$weight-semi-bold:600;
+$weight-bold:700;
+$weight-default:$weight-semi-bold;
+//line height
+$lh-small:.825;
+$lh--1:1;
+$lh--1-1:1.1;
+$lh--1-15:1.15;
+$lh--1-2:1.2;
+$lh--1-3:1.3;
+$lh--1-4:1.4;
+$lh--1-5:1.5;
+$lh--1-6:1.6;
+$lh--1-default:$lh--1-15;
+$lh--1-7:1.7;
+$lh--1-8:1.8;
+$lh--2:2;
+
+//case
+$upper:uppercase;
+$lower:lowercase;
+
+//style
+$st-nm:normal;
+$st-it:itallic;
+$st-ob:oblique;
+
+//font
+$v-thin:Vietnam-Thin , sans-serif;
+$v-light:Vietnam-Light , sans-serif;
+$v-regular:Vietnam , sans-serif;
+$v-bold:Vietnam-Bold , sans-serif;
+$v-xlbold:Vietnam-xlBold , sans-serif;
+// font family
+$main-font:$v-regular, sans-serif;

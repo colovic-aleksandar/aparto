@@ -1,0 +1,25 @@
+@font-face {
+  font-family: Vietnam-Thin;
+  src: url("../fonts/BeVietnam-Thin.ttf");
+}
+
+@font-face {
+  font-family: Vietnam-Light;
+  src: url("../fonts/BeVietnam-Light.ttf");
+}
+
+@font-face {
+  font-family: Vietnam;
+  src: url("../fonts/BeVietnam-Regular.ttf");
+}
+
+@font-face {
+  font-family: Vietnam-Bold;
+  src: url("../fonts/BeVietnam-Bold.ttf");
+}
+
+@font-face {
+  font-family: Vietnam-xlBold;
+  src: url("../fonts/BeVietnam-ExtraBold.ttf");
+}
+/*# sourceMappingURL=typography.css.map */
