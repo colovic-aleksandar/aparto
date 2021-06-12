@@ -153,8 +153,14 @@ header .header-phone:hover, header .header-phone:active {
 
 .start-explanation {
   background-color: #e9e8e7;
-  padding: 50px;
+  padding: 25px;
   line-height: 2;
+}
+
+@media all and (min-width: 993px) {
+  .start-explanation .container {
+    width: 50%;
+  }
 }
 
 article.explanation {
@@ -192,9 +198,19 @@ article.explanation {
   background-color: #fff;
 }
 
+@media all and (min-width: 993px) {
+  .next-step .container {
+    width: 50%;
+  }
+}
+
 .next-step h3.question {
   color: #bd7256;
   font-size: 1.8rem;
   line-height: 2;
+}
+
+.vision-h2 {
+  padding-bottom: 15px;
 }
 /*# sourceMappingURL=style.css.map */

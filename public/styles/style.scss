@@ -126,9 +126,15 @@ header {
 }
 
 .start-explanation {
+    .container {
+       
+        @media all and (min-width: ($screen-md + 1)) {
+            width: 50%;
+        }
+    }
     background-color: $earth-offwhite;
 
-    padding: 50px;
+    padding: 25px;
     line-height: $lh--2;
 
 
@@ -169,6 +175,12 @@ article.explanation {
 }
 
 .next-step {
+    .container {
+       
+        @media all and (min-width: ($screen-md + 1)) {
+            width: 50%;
+        }
+    }
 
     padding: 50px;
     line-height: $lh--2;
@@ -179,4 +191,9 @@ article.explanation {
         font-size: $size-h6;
         line-height: $lh--2;
     }
+}
+
+.vision-h2{
+
+    padding-bottom:15px;
 }
